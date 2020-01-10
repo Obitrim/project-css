@@ -1,0 +1,212 @@
+@layout('layouts.app')
+
+@section('title')
+	<title> CSS | Students</title>
+@endsection
+
+@section('custom-css')
+	<link rel="stylesheet" href="/css/shared/card.css">
+	<link rel="stylesheet" href="/css/students.css" />
+@endsection
+
+@section('content')
+	<div>
+
+		{{-- banner --}}
+		<div id="banner" class=" container my-3" >
+			<img class="w-100" src="/images/bg.jpg" alt="banner"/>
+		</div>
+		
+		{{-- search box --}}
+		<form action="#" class="container my-3">
+			<div class="row">
+				<div class="col-md-2">
+					<label>Academic Year: &nbsp;&nbsp;</label>
+				</div>
+				<div class="col-md-6">
+					<input type="search" class="form-control" name="academicYear" placeholder="eg. 2019/2020" />
+				</div>
+			</div>
+		</form>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4 id="search-heading">Showing results for 2019/2020 Academic year Student Leaders</h4>
+				</div>
+			</div>
+		</div>
+
+		{{-- president and Vice --}}
+		<div id="president-and-vice">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h4 data-aos="fade-in" data-aos-duration="900">President and Vice</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="president image">
+							</div>
+							<div class="app-card-body">
+								<h5>Lorem ipsum dolor</h5>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam minima, explicabo odio magnam quia dolore.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="Vice president image">
+							</div>
+							<div class="app-card-body">
+								<h4>Lorem ipsum dolor</h4>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremqu nisi consequuntur placeat non libero.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{{-- supporting executives --}}
+		<div id="supporting-executives">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h4 data-aos="fade-in" data-aos-duration="900">Supporting Executives</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="General Secretary">
+							</div>
+							<div class="app-card-body">
+								<h4>Lorem ipsum dolor</h4>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum excepturi odit, eos nemo reiciendis animi.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="Financial Secretary">
+							</div>
+							<div class="app-card-body">
+								<h4>Lorem ipsum dolor</h4>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing me ullam, nesciunt, reiciendis aliquid quasi.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="organizing Secretary">
+							</div>
+							<div class="app-card-body">
+								<h4>Lorem ipsum dolor</h4>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisic architecto voluptatem accusantium, harum vitae voluptatibus.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="Women's commisioner">
+							</div>
+							<div class="app-card-body">
+								<h4>Lorem ipsum dolor</h4>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam iste commodi architecto earum quae quis!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{{-- committee heads --}}
+		<div id="committee-heads">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h4 data-aos="fade-in" data-aos-duration="900">Committee Heads</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="Judicial head image">
+							</div>
+							<div class="app-card-body">
+								<h4>Lorem ipsum dolor</h4>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas sit et fugit tenetur inventore. Fuga.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="Research head image">
+							</div>
+							<div class="app-card-body">
+								<h4>Lorem ipsum dolor</h4>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elipudiandae, dicta atque nemo. Repellat, incidunt.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="Editor in chief head image">
+							</div>
+							<div class="app-card-body">
+								<h4>Lorem ipsum dolor</h4>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repelt minus aperiam asperiores.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="Auditor's image">
+							</div>
+							<div class="app-card-body">
+								<h4>Lorem ipsum dolor</h4>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, in beatae perferendis minima a quia?</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="app-card" data-aos="slide-up" data-aos-offset="-50" data-aos-duration="1000">
+							<div class="app-card-header">
+								<img src="/images/person.jpg" alt="Electoral commisioner image">
+							</div>
+							<div class="app-card-body">
+								<h4>Lorem ipsum dolor</h4>
+								<h5>Position</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. quibusdam non autem molestias accusantium!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+@endsection

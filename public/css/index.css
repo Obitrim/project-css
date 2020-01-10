@@ -1,0 +1,147 @@
+main {
+	max-width: 100vw;
+	height: auto !important;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+
+/*banner*/
+#banner img{
+	object-fit: cover;
+}
+
+
+/*main section*/
+.section-pad {
+	padding: 3rem 1rem !important;
+	text-align: center;
+}
+
+.section-pad h3 {
+	margin: 0 auto 2rem;
+	text-align: center;
+}
+
+#overview article {
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+
+/*membership section*/
+#membership {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+#membership-steps {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-areas: 'firstCard secondCard thirdCard';
+}
+
+.membership-step {
+	background-color: #fff;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+	margin: 2em 1.3rem;
+	padding: 2em 2em;
+	text-align: center;
+}
+
+
+.membership-step:first-child {
+	grid-area: firstCard;
+}
+
+
+.membership-step:nth-child(2){
+	grid-area: secondCard;
+}
+.membership-step:nth-child(3){
+	grid-area: thirdCard;
+}
+
+.membership-step p {
+	margin-top: 1.5rem;
+
+}
+
+.step {
+	width: 5rem;
+	height: 5rem;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 1px solid red;
+
+	position: relative;
+}
+
+.step span {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.6rem;
+}
+
+
+
+
+
+/*meet our patron section*/
+#meet-our-patron article > h5 {
+	margin: 1.2em 0;
+}
+
+#meet-our-patron article > p {
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+#meet-our-patron article > img {
+	max-height: 15rem;
+	height: 15rem;
+	width: 15rem;
+	border-radius: 50%;
+}
+
+
+#overview,
+#meet-out-patron {
+	padding: 4rem 0 !important;
+}
+
+
+
+
+@media only screen and (max-width: 991px){
+
+	#membership-steps {
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: 
+			"firstCard secondCard"
+			"firstCard secondCard"
+			"thirdCard whitespace";
+	}
+}
+
+
+@media only screen and (max-width: 767px){
+	#membership-steps {
+		grid-gap: 0;
+	}
+}
+
+
+@media only screen and (max-width: 575px){
+	#membership-steps {
+		grid-template-areas: 
+			"firstCard"
+			"secondCard"
+			"thirdCard";
+		grid-template-rows: repeat(3, 1fr);
+	}
+}
+
+
+

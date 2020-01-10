@@ -1,0 +1,39 @@
+
+
+#search-heading {
+	color: grey;
+}
+
+.row {
+	align-items: stretch !important;
+}
+
+
+/*supporting executives*/
+#supporting-executives {
+	background: rgba(0, 0, 0, 0.25);
+}
+
+#committee-heads, 
+#president-and-vice,
+#supporting-executives
+{
+	padding: 4rem 0 !important;
+}
+
+
+
+@media only screen and (min-width: 768px){
+	#supporting-executives {
+		background: #000;
+	}
+
+	#supporting-executives > .container > .row > .col > h4 {
+		color: #fff;
+	}
+
+	.app-card {
+		color: #000;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	}
+}

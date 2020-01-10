@@ -1,0 +1,25 @@
+
+#supporting-personalities {
+	background-color: #eaeaea;
+}
+
+#patron,
+#supporting-personalities {
+	padding: 4rem 0 !important;
+}
+
+
+#patron img {
+	width: 18rem;
+	height: 18rem;
+	border-radius: 50%;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+	#patron p {
+		width: 40rem;
+		margin: 1rem auto;
+	}
+}

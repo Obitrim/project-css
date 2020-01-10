@@ -1,0 +1,547 @@
+@layout('layouts.app')
+
+@section('title')
+	<title> CSS | Curriculum</title>
+@endsection
+
+@section('custom-css')
+	<link rel="stylesheet" href="/css/curriculum.css" />
+@endsection
+
+@section('content')
+	<div class="container">
+		<header class="py-5">
+			<h4>BSc. Computer Science Curriculum</h4>
+		</header>
+		<main class="accordion mb-5" id="curriculum">
+			{{-- year one --}}
+			<div class="card">
+			    <button class="btn w-100 text-left" type="button" data-toggle="collapse" data-target="#yearOne" aria-expanded="false" aria-controls="yearOne">
+			          Year One
+			    </button>
+
+			    <div id="yearOne" class="collapse" aria-labelledby="headingOne" data-parent="#curriculum">
+			      <div class="app-card-body">
+			      	<h5>Semester 1</h5>
+			        <div class="table-responsive">
+			        	<table class="table">
+				        	<thead>
+				        		<th>Course</th>
+				        		<th>Code</th>
+				        		<th>Action</th>
+				        	</thead>
+				        	<tbody>
+				        		<tr>
+				        			<td>Information Technology 1</td>
+				        			<td>CSM 151</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Circuit Theory</td>
+				        			<td>CSM 153</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Introduction to Structured Program Design</td>
+				        			<td>CSM 157</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Discrete Mathematics 1</td>
+				        			<td>MATH 163</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Elements of Economics 1</td>
+				        			<td>ECON 151</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Pure Mathematics 1</td>
+				        			<td>MATH 161</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Communication Skills 1</td>
+				        			<td>ENGL 157</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        	</tbody>
+				        </table>
+			        </div>
+			      </div>
+			      <div class="app-card-body">
+			      	<h5>Semester 2</h5>
+			        <div class="table-responsive">
+			        	<table class="table">
+				        	<thead>
+				        		<th>Course</th>
+				        		<th>Code</th>
+				        		<th>Action</th>
+				        	</thead>
+				        	<tbody>
+				        		<tr>
+				        			<td>Information Technology 1</td>
+				        			<td>CSM 151</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Circuit Theory</td>
+				        			<td>CSM 153</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Introduction to Structured Program Design</td>
+				        			<td>CSM 157</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Discrete Mathematics 1</td>
+				        			<td>MATH 163</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Elements of Economics 1</td>
+				        			<td>ECON 151</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Pure Mathematics 1</td>
+				        			<td>MATH 161</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        		<tr>
+				        			<td>Communication Skills 1</td>
+				        			<td>ENGL 157</td>
+				        			<td>
+				        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+				        			</td>
+				        		</tr>
+				        	</tbody>
+				        </table>
+			        </div>
+			      </div>
+			    </div>
+			</div>
+			{{-- year two --}}
+			<div class="card">
+			    <button class="btn w-100 text-left" type="button" data-toggle="collapse" data-target="#yearTwo" aria-expanded="false" aria-controls="yearOne">
+			          Year Two
+			    </button>
+
+			    <div id="yearTwo" class="collapse" aria-labelledby="yearTwo" data-parent="#curriculum">
+			      <div class="app-card-body">
+			      	<h5>Semester 1</h5>
+			        <table class="table">
+			        	<thead>
+			        		<th>Course</th>
+			        		<th>Code</th>
+			        		<th>Action</th>
+			        	</thead>
+			        	<tbody>
+			        		<tr>
+			        			<td>Information Technology 1</td>
+			        			<td>CSM 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Circuit Theory</td>
+			        			<td>CSM 153</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Introduction to Structured Program Design</td>
+			        			<td>CSM 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Discrete Mathematics 1</td>
+			        			<td>MATH 163</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Elements of Economics 1</td>
+			        			<td>ECON 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Pure Mathematics 1</td>
+			        			<td>MATH 161</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Communication Skills 1</td>
+			        			<td>ENGL 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        	</tbody>
+			        </table>
+			      </div>
+			      <div class="app-card-body">
+			      	<h5>Semester 2</h5>
+			        <table class="table">
+			        	<thead>
+			        		<th>Course</th>
+			        		<th>Code</th>
+			        		<th>Action</th>
+			        	</thead>
+			        	<tbody>
+			        		<tr>
+			        			<td>Information Technology 1</td>
+			        			<td>CSM 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Circuit Theory</td>
+			        			<td>CSM 153</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Introduction to Structured Program Design</td>
+			        			<td>CSM 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Discrete Mathematics 1</td>
+			        			<td>MATH 163</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Elements of Economics 1</td>
+			        			<td>ECON 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Pure Mathematics 1</td>
+			        			<td>MATH 161</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Communication Skills 1</td>
+			        			<td>ENGL 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        	</tbody>
+			        </table>
+			      </div>
+			    </div>
+			</div>
+			{{-- year three --}}
+			<div class="card">
+			    <button class="btn w-100 text-left" type="button" data-toggle="collapse" data-target="#yearThree" aria-expanded="false" aria-controls="yearOne">
+			          Year Three
+			    </button>
+
+			    <div id="yearThree" class="collapse" aria-labelledby="yearTwo" data-parent="#curriculum">
+			      <div class="app-card-body">
+			      	<h5>Semester 1</h5>
+			        <table class="table">
+			        	<thead>
+			        		<th>Course</th>
+			        		<th>Code</th>
+			        		<th>Action</th>
+			        	</thead>
+			        	<tbody>
+			        		<tr>
+			        			<td>Information Technology 1</td>
+			        			<td>CSM 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Circuit Theory</td>
+			        			<td>CSM 153</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Introduction to Structured Program Design</td>
+			        			<td>CSM 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Discrete Mathematics 1</td>
+			        			<td>MATH 163</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Elements of Economics 1</td>
+			        			<td>ECON 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Pure Mathematics 1</td>
+			        			<td>MATH 161</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Communication Skills 1</td>
+			        			<td>ENGL 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        	</tbody>
+			        </table>
+			      </div>
+			      <div class="app-card-body">
+			      	<h5>Semester 2</h5>
+			        <table class="table">
+			        	<thead>
+			        		<th>Course</th>
+			        		<th>Code</th>
+			        		<th>Action</th>
+			        	</thead>
+			        	<tbody>
+			        		<tr>
+			        			<td>Information Technology 1</td>
+			        			<td>CSM 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Circuit Theory</td>
+			        			<td>CSM 153</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Introduction to Structured Program Design</td>
+			        			<td>CSM 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Discrete Mathematics 1</td>
+			        			<td>MATH 163</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Elements of Economics 1</td>
+			        			<td>ECON 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Pure Mathematics 1</td>
+			        			<td>MATH 161</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Communication Skills 1</td>
+			        			<td>ENGL 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        	</tbody>
+			        </table>
+			      </div>
+			    </div>
+			</div>
+			{{-- year four --}}
+			<div class="card">
+			    <button class="btn w-100 text-left" type="button" data-toggle="collapse" data-target="#yearFour" aria-expanded="false" aria-controls="yearOne">
+			          Year Four
+			    </button>
+
+			    <div id="yearFour" class="collapse" aria-labelledby="yearFour" data-parent="#curriculum">
+			      <div class="app-card-body">
+			      	<h5>Semester 1</h5>
+			        <table class="table">
+			        	<thead>
+			        		<th>Course</th>
+			        		<th>Code</th>
+			        		<th>Action</th>
+			        	</thead>
+			        	<tbody>
+			        		<tr>
+			        			<td>Information Technology 1</td>
+			        			<td>CSM 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Circuit Theory</td>
+			        			<td>CSM 153</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Introduction to Structured Program Design</td>
+			        			<td>CSM 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Discrete Mathematics 1</td>
+			        			<td>MATH 163</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Elements of Economics 1</td>
+			        			<td>ECON 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Pure Mathematics 1</td>
+			        			<td>MATH 161</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Communication Skills 1</td>
+			        			<td>ENGL 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        	</tbody>
+			        </table>
+			      </div>
+			      <div class="app-card-body">
+			      	<h5>Semester 2</h5>
+			        <table class="table">
+			        	<thead>
+			        		<th>Course</th>
+			        		<th>Code</th>
+			        		<th>Action</th>
+			        	</thead>
+			        	<tbody>
+			        		<tr>
+			        			<td>Information Technology 1</td>
+			        			<td>CSM 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Circuit Theory</td>
+			        			<td>CSM 153</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Introduction to Structured Program Design</td>
+			        			<td>CSM 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Discrete Mathematics 1</td>
+			        			<td>MATH 163</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Elements of Economics 1</td>
+			        			<td>ECON 151</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Pure Mathematics 1</td>
+			        			<td>MATH 161</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        		<tr>
+			        			<td>Communication Skills 1</td>
+			        			<td>ENGL 157</td>
+			        			<td>
+			        				<a href="#" class="btn btn-sm btn-success">Read More</a>
+			        			</td>
+			        		</tr>
+			        	</tbody>
+			        </table>
+			      </div>
+			    </div>
+			</div>
+		</main>
+	</div>
+@endsection

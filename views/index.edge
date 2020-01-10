@@ -1,0 +1,57 @@
+@layout('layouts.app')
+
+@section("custom-css")
+	<link rel="stylesheet" href="/css/index.css" />
+@endsection
+
+@section("content")
+	{{-- banner --}}
+
+	<div id="banner" >
+		<div class="container my-3">
+			<img class="w-100" src="/images/bg.jpg" alt="banner"/>
+		</div>
+	</div>
+
+	{{-- content --}}
+	<main>
+		<div id="overview">
+			<article class="container section-pad" data-aos="fade-up" data-aos-duration="1000"  data-aos-offset="150">
+				<h3>Overview</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis repellat, facere voluptate quisquam quo vero, cupiditate mollitia assumenda enim architecto rem impedit amet delectus ut sequi aliquid eligendi .</p>
+			</article>
+		</div>
+		<div  id="membership">
+			<article class="container section-pad">
+				<h3>Membership Requirement</h3>
+				<p>To be a member of this wonderful society the following requirements have to be met: </p>
+				<div id="membership-steps">
+					<aside class="membership-step" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="90">
+						<div class="step"><span >1</span></div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reprehenderit!</p>
+						<a href="#" class="btn btn-success w-100 mt-3">Read More ...</a>
+					</aside>
+					<aside class="membership-step" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="90">
+						<div class="step"><span >2</span></div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reprehenderit!</p>
+						<a href="#" class="btn btn-success w-100 mt-3">Read More ...</a>
+					</aside>
+					<aside class="membership-step" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="90">
+						<div class="step"><span>3</span></div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reprehenderit!</p>
+						<a href="#" class="btn btn-success w-100 mt-3">Read More ...</a>
+					</aside>
+				</div>
+			</article>
+		</div>
+		<div id="meet-our-patron">
+			<article  class="container section-pad">
+				<h3 data-aos="fade-up" data-aos-duration="1500" data-aos-offset="150">Meet our Patron</h3>
+				<img src="/images/bg.jpg" alt="#"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150"/>
+				<h5 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">Dr. Lorem ipsum dolor</h5>
+				<p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi error vel ratione, accusantium culpa, officiis dignissimos, ea cupiditate nesciunt perspiciatis aspernatur quod beatae fuga totam.</p>
+				<a href="#" class="btn btn-success mt-2" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150">Read more</a>
+			</article>
+		</div>
+	</main>
+@endsection
