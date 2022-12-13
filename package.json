@@ -10,7 +10,7 @@
   "author": "Research Officer",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-edge": "^2.0.1",
     "mongoose": "^5.8.4"
   },
